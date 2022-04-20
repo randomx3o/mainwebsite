@@ -1,0 +1,39 @@
+@font-face {
+    font-family: oswaldbold;
+    src: url(fonts/static/Oswald-Bold.ttf);
+}
+body {
+    background-color: #effbfd;
+    background-repeat: no-repeat;
+    background-size: auto;
+    margin: 40px;
+}
+header{
+    color: #000000;
+    background-color: rgb(241, 241, 241);
+    height: 100px;
+    width: auto;
+    border-radius: 20px;
+    border-color: lightgrey;
+    border-style: solid;
+}
+section {
+    font-size: 4vw;
+    margin: 20px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    background-color: rgb(241, 241, 241);
+    height: 500px;
+    width: auto;
+    border-radius: 10px;
+    border-color: lightgrey;
+    border-style: solid;
+    font-family: oswaldbold;
+}
+button.menu {
+    background-color: rgb(238, 237, 237);
+    border-style: none;
+    height: 100px;
+    width: 100px;
+    border-radius: 15px;
+}
